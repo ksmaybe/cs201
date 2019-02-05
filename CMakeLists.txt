@@ -3,4 +3,4 @@ project(random C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(random test.c)
+add_executable(random hw1-12.c)
