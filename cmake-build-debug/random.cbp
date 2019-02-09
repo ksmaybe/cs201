@@ -11,20 +11,34 @@
 				<Option working_dir="/home/ksmaybe/code/cs201/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+=======
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+>>>>>>> master
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/ksmaybe/code/cs201/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+=======
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+>>>>>>> master
 				</MakeCommands>
 			</Target>
 			<Target title="random">
@@ -41,10 +55,17 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 random"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+=======
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 random"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+>>>>>>> master
 				</MakeCommands>
 			</Target>
 			<Target title="random/fast">
@@ -61,16 +82,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 random/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+=======
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 random/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+>>>>>>> master
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/ksmaybe/code/cs201/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -79,6 +108,16 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/ksmaybe/code/cs201/test.c">
+=======
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ksmaybe/code/cs201/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ksmaybe/code/cs201/hw1-12.c">
+>>>>>>> master
 			<Option target="random"/>
 		</Unit>
 		<Unit filename="/home/ksmaybe/code/cs201/CMakeLists.txt">

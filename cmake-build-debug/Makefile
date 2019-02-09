@@ -39,10 +39,17 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
 RM = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+=======
+CMAKE_COMMAND = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake
+
+# The command to remove a file.
+RM = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E remove -f
+>>>>>>> master
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +66,11 @@ CMAKE_BINARY_DIR = /home/ksmaybe/code/cs201/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+<<<<<<< HEAD
 	/home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> master
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +81,11 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+<<<<<<< HEAD
 	/home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+=======
+	/home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+>>>>>>> master
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,6 +138,7 @@ random/fast:
 	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/build
 .PHONY : random/fast
 
+<<<<<<< HEAD
 test.o: test.c.o
 
 .PHONY : test.o
@@ -149,6 +165,34 @@ test.s: test.c.s
 test.c.s:
 	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/test.c.s
 .PHONY : test.c.s
+=======
+hw1-12.o: hw1-12.c.o
+
+.PHONY : hw1-12.o
+
+# target to build an object file
+hw1-12.c.o:
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/hw1-12.c.o
+.PHONY : hw1-12.c.o
+
+hw1-12.i: hw1-12.c.i
+
+.PHONY : hw1-12.i
+
+# target to preprocess a source file
+hw1-12.c.i:
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/hw1-12.c.i
+.PHONY : hw1-12.c.i
+
+hw1-12.s: hw1-12.c.s
+
+.PHONY : hw1-12.s
+
+# target to generate assembly for a file
+hw1-12.c.s:
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/hw1-12.c.s
+.PHONY : hw1-12.c.s
+>>>>>>> master
 
 # Help Target
 help:
@@ -159,9 +203,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... random"
 	@echo "... edit_cache"
+<<<<<<< HEAD
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+=======
+	@echo "... hw1-12.o"
+	@echo "... hw1-12.i"
+	@echo "... hw1-12.s"
+>>>>>>> master
 .PHONY : help
 
 
