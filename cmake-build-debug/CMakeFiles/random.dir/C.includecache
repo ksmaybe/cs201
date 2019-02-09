@@ -6,3 +6,9 @@
 
 #IncludeRegexTransform: 
 
+/home/ksmaybe/code/cs201/hw1-12.c
+stdio.h
+-
+memory.h
+-
+
