@@ -123,32 +123,32 @@ random/fast:
 	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/build
 .PHONY : random/fast
 
-hw1-12.o: hw1-12.c.o
+hw2-4.o: hw2-4.c.o
 
-.PHONY : hw1-12.o
+.PHONY : hw2-4.o
 
 # target to build an object file
-hw1-12.c.o:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/hw1-12.c.o
-.PHONY : hw1-12.c.o
+hw2-4.c.o:
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/hw2-4.c.o
+.PHONY : hw2-4.c.o
 
-hw1-12.i: hw1-12.c.i
+hw2-4.i: hw2-4.c.i
 
-.PHONY : hw1-12.i
+.PHONY : hw2-4.i
 
 # target to preprocess a source file
-hw1-12.c.i:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/hw1-12.c.i
-.PHONY : hw1-12.c.i
+hw2-4.c.i:
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/hw2-4.c.i
+.PHONY : hw2-4.c.i
 
-hw1-12.s: hw1-12.c.s
+hw2-4.s: hw2-4.c.s
 
-.PHONY : hw1-12.s
+.PHONY : hw2-4.s
 
 # target to generate assembly for a file
-hw1-12.c.s:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/hw1-12.c.s
-.PHONY : hw1-12.c.s
+hw2-4.c.s:
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/hw2-4.c.s
+.PHONY : hw2-4.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... random"
 	@echo "... edit_cache"
-	@echo "... hw1-12.o"
-	@echo "... hw1-12.i"
-	@echo "... hw1-12.s"
+	@echo "... hw2-4.o"
+	@echo "... hw2-4.i"
+	@echo "... hw2-4.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/random.dir/hw1-12.c.o  -o random 
+/usr/bin/cc -g   CMakeFiles/random.dir/hw2-4.c.o  -o random 
