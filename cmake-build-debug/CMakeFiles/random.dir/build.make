@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,27 +57,27 @@ include CMakeFiles/random.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/random.dir/flags.make
 
-CMakeFiles/random.dir/hw2-4.c.o: CMakeFiles/random.dir/flags.make
-CMakeFiles/random.dir/hw2-4.c.o: ../hw2-4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/random.dir/hw2-4.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/random.dir/hw2-4.c.o   -c /home/ksmaybe/code/cs201/hw2-4.c
+CMakeFiles/random.dir/odd.c.o: CMakeFiles/random.dir/flags.make
+CMakeFiles/random.dir/odd.c.o: ../odd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/random.dir/odd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/random.dir/odd.c.o   -c /home/ksmaybe/code/cs201/odd.c
 
-CMakeFiles/random.dir/hw2-4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/random.dir/hw2-4.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ksmaybe/code/cs201/hw2-4.c > CMakeFiles/random.dir/hw2-4.c.i
+CMakeFiles/random.dir/odd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/random.dir/odd.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ksmaybe/code/cs201/odd.c > CMakeFiles/random.dir/odd.c.i
 
-CMakeFiles/random.dir/hw2-4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/random.dir/hw2-4.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ksmaybe/code/cs201/hw2-4.c -o CMakeFiles/random.dir/hw2-4.c.s
+CMakeFiles/random.dir/odd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/random.dir/odd.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ksmaybe/code/cs201/odd.c -o CMakeFiles/random.dir/odd.c.s
 
 # Object files for target random
 random_OBJECTS = \
-"CMakeFiles/random.dir/hw2-4.c.o"
+"CMakeFiles/random.dir/odd.c.o"
 
 # External object files for target random
 random_EXTERNAL_OBJECTS =
 
-random: CMakeFiles/random.dir/hw2-4.c.o
+random: CMakeFiles/random.dir/odd.c.o
 random: CMakeFiles/random.dir/build.make
 random: CMakeFiles/random.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable random"
