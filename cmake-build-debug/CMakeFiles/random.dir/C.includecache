@@ -6,3 +6,11 @@
 
 #IncludeRegexTransform: 
 
+/home/ksmaybe/code/cs201/getint.c
+stdio.h
+-
+stdio.h
+-
+ctype.h
+-
+

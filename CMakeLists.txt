@@ -3,4 +3,4 @@ project(random C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(random odd.c)
+add_executable(random getint.c)

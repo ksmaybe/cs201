@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/random.dir/odd.c.o"
+  "CMakeFiles/random.dir/getint.c.o"
   "random.pdb"
   "random"
 )
