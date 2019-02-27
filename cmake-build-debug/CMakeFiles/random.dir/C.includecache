@@ -6,10 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/ksmaybe/code/cs201/getint.c
+/home/ksmaybe/code/cs201/tab.c
 stdio.h
 -
-stdio.h
+memory.h
+-
+string.h
 -
 ctype.h
 -

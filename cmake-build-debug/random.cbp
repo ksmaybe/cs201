@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ksmaybe/code/cs201/getint.c">
+		<Unit filename="/home/ksmaybe/code/cs201/tab.c">
 			<Option target="random"/>
 		</Unit>
 		<Unit filename="/home/ksmaybe/code/cs201/CMakeLists.txt">

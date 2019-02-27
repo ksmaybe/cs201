@@ -57,27 +57,27 @@ include CMakeFiles/random.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/random.dir/flags.make
 
-CMakeFiles/random.dir/getint.c.o: CMakeFiles/random.dir/flags.make
-CMakeFiles/random.dir/getint.c.o: ../getint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/random.dir/getint.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/random.dir/getint.c.o   -c /home/ksmaybe/code/cs201/getint.c
+CMakeFiles/random.dir/tab.c.o: CMakeFiles/random.dir/flags.make
+CMakeFiles/random.dir/tab.c.o: ../tab.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/random.dir/tab.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/random.dir/tab.c.o   -c /home/ksmaybe/code/cs201/tab.c
 
-CMakeFiles/random.dir/getint.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/random.dir/getint.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ksmaybe/code/cs201/getint.c > CMakeFiles/random.dir/getint.c.i
+CMakeFiles/random.dir/tab.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/random.dir/tab.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ksmaybe/code/cs201/tab.c > CMakeFiles/random.dir/tab.c.i
 
-CMakeFiles/random.dir/getint.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/random.dir/getint.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ksmaybe/code/cs201/getint.c -o CMakeFiles/random.dir/getint.c.s
+CMakeFiles/random.dir/tab.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/random.dir/tab.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ksmaybe/code/cs201/tab.c -o CMakeFiles/random.dir/tab.c.s
 
 # Object files for target random
 random_OBJECTS = \
-"CMakeFiles/random.dir/getint.c.o"
+"CMakeFiles/random.dir/tab.c.o"
 
 # External object files for target random
 random_EXTERNAL_OBJECTS =
 
-random: CMakeFiles/random.dir/getint.c.o
+random: CMakeFiles/random.dir/tab.c.o
 random: CMakeFiles/random.dir/build.make
 random: CMakeFiles/random.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable random"

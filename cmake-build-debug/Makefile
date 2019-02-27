@@ -123,32 +123,32 @@ random/fast:
 	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/build
 .PHONY : random/fast
 
-getint.o: getint.c.o
+tab.o: tab.c.o
 
-.PHONY : getint.o
+.PHONY : tab.o
 
 # target to build an object file
-getint.c.o:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/getint.c.o
-.PHONY : getint.c.o
+tab.c.o:
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/tab.c.o
+.PHONY : tab.c.o
 
-getint.i: getint.c.i
+tab.i: tab.c.i
 
-.PHONY : getint.i
+.PHONY : tab.i
 
 # target to preprocess a source file
-getint.c.i:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/getint.c.i
-.PHONY : getint.c.i
+tab.c.i:
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/tab.c.i
+.PHONY : tab.c.i
 
-getint.s: getint.c.s
+tab.s: tab.c.s
 
-.PHONY : getint.s
+.PHONY : tab.s
 
 # target to generate assembly for a file
-getint.c.s:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/getint.c.s
-.PHONY : getint.c.s
+tab.c.s:
+	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/tab.c.s
+.PHONY : tab.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... random"
 	@echo "... edit_cache"
-	@echo "... getint.o"
-	@echo "... getint.i"
-	@echo "... getint.s"
+	@echo "... tab.o"
+	@echo "... tab.i"
+	@echo "... tab.s"
 .PHONY : help
 
 
