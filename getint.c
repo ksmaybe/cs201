@@ -3,6 +3,7 @@
 //
 
 #include <stdio.h>
+#include <ctype.h>
 #define BUFSIZE 100
 char buf[BUFSIZE];
 int  bufp = 0;
@@ -20,28 +21,41 @@ void ungetch(int c) {
         buf[bufp++] = c;
 }
 
-#include <stdio.h>
-#include <ctype.h>
 int getint(int *pn) {
     int c, sign;
+    printf("Enter a number: ");
     while (isspace(c=getch())) ;
     if (!isdigit(c) && c!=EOF && c!='+' && c!='-') {
         ungetch(c);
         return 0;
     }
     sign = (c=='-') ? -1 : 1;
-    if (c=='+' || c=='-')
-        c = getch();
+
+    //printf("sign: %d\n",sign);
+    //printf("0: %d\n",*pn);
+    if (c=='+' || c=='-'){
+        c = getch();}
     for (*pn = 0; isdigit(c); c=getch())
         *pn = 10 * *pn + (c-'0');
+
+    //printf("1: %d\n",*pn);
+    if (c=='+' || c=='-'){
+        *pn= *pn*10;
+        c = getch();}
+    //printf("2:  %d\n",*pn);
+
     *pn *= sign;
     if (c != EOF)
         ungetch(c);
-    return c;
+
+    //printf("3: %d\n",*pn);
+    return *pn;
 }
 
 int main(){
     int c;
     getint(&c);
+
+    printf("Number: %d",c);
     return 0;
 }

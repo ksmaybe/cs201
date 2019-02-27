@@ -78,7 +78,11 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+<<<<<<< Updated upstream
 		<Unit filename="/home/ksmaybe/code/cs201/tab.c">
+=======
+		<Unit filename="/home/ksmaybe/code/cs201/changeltox.c">
+>>>>>>> Stashed changes
 			<Option target="random"/>
 		</Unit>
 		<Unit filename="/home/ksmaybe/code/cs201/CMakeLists.txt">

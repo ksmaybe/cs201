@@ -17,8 +17,9 @@ int main(){
     int a=1;
     int b=2;
     int c=3;
+    printf("A: %d\nB: %d\nC: %d \n",a,b,c);
     rotate3(&a,&b,&c);
-
+    printf("After rotate\n");
     printf("A: %d\nB: %d\nC: %d \n",a,b,c);
 
     return 0;

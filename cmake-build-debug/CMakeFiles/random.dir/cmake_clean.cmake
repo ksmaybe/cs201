@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+<<<<<<< Updated upstream
   "CMakeFiles/random.dir/tab.c.o"
+=======
+  "CMakeFiles/random.dir/changeltox.c.o"
+>>>>>>> Stashed changes
   "random.pdb"
   "random"
 )

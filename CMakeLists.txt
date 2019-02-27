@@ -3,4 +3,8 @@ project(random C)
 
 set(CMAKE_C_STANDARD 99)
 
+<<<<<<< Updated upstream
 add_executable(random tab.c)
+=======
+add_executable(random changeltox.c)
+>>>>>>> Stashed changes
