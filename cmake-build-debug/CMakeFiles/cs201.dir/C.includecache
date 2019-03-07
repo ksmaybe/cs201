@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< Updated upstream
-/home/ksmaybe/code/cs201/tab.c
+/home/ksmaybe/code/cs201/upperlower.c
 stdio.h
--
-memory.h
--
-string.h
 -
 ctype.h
 -
-=======
-/home/ksmaybe/code/cs201/changeltox.c
-stdio.h
--
->>>>>>> Stashed changes
 

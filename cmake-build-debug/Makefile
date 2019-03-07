@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ksmaybe/code/cs201/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,73 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named random
+# Target rules for targets named cs201
 
 # Build rule for target.
-random: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 random
-.PHONY : random
+cs201: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cs201
+.PHONY : cs201
 
 # fast build rule for target.
-random/fast:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/build
-.PHONY : random/fast
+cs201/fast:
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/build
+.PHONY : cs201/fast
 
-<<<<<<< Updated upstream
-tab.o: tab.c.o
+upperlower.o: upperlower.c.o
 
-.PHONY : tab.o
-
-# target to build an object file
-tab.c.o:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/tab.c.o
-.PHONY : tab.c.o
-
-tab.i: tab.c.i
-
-.PHONY : tab.i
-
-# target to preprocess a source file
-tab.c.i:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/tab.c.i
-.PHONY : tab.c.i
-
-tab.s: tab.c.s
-
-.PHONY : tab.s
-
-# target to generate assembly for a file
-tab.c.s:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/tab.c.s
-.PHONY : tab.c.s
-=======
-changeltox.o: changeltox.c.o
-
-.PHONY : changeltox.o
+.PHONY : upperlower.o
 
 # target to build an object file
-changeltox.c.o:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/changeltox.c.o
-.PHONY : changeltox.c.o
+upperlower.c.o:
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/upperlower.c.o
+.PHONY : upperlower.c.o
 
-changeltox.i: changeltox.c.i
+upperlower.i: upperlower.c.i
 
-.PHONY : changeltox.i
+.PHONY : upperlower.i
 
 # target to preprocess a source file
-changeltox.c.i:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/changeltox.c.i
-.PHONY : changeltox.c.i
+upperlower.c.i:
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/upperlower.c.i
+.PHONY : upperlower.c.i
 
-changeltox.s: changeltox.c.s
+upperlower.s: upperlower.c.s
 
-.PHONY : changeltox.s
+.PHONY : upperlower.s
 
 # target to generate assembly for a file
-changeltox.c.s:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/changeltox.c.s
-.PHONY : changeltox.c.s
->>>>>>> Stashed changes
+upperlower.c.s:
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/upperlower.c.s
+.PHONY : upperlower.c.s
 
 # Help Target
 help:
@@ -186,17 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... random"
+	@echo "... cs201"
 	@echo "... edit_cache"
-<<<<<<< Updated upstream
-	@echo "... tab.o"
-	@echo "... tab.i"
-	@echo "... tab.s"
-=======
-	@echo "... changeltox.o"
-	@echo "... changeltox.i"
-	@echo "... changeltox.s"
->>>>>>> Stashed changes
+	@echo "... upperlower.o"
+	@echo "... upperlower.i"
+	@echo "... upperlower.s"
 .PHONY : help
 
 

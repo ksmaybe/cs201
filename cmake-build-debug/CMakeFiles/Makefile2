@@ -50,10 +50,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -65,39 +65,39 @@ CMAKE_SOURCE_DIR = /home/ksmaybe/code/cs201
 CMAKE_BINARY_DIR = /home/ksmaybe/code/cs201/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/random.dir
+# Target rules for target CMakeFiles/cs201.dir
 
 # All Build rule for target.
-CMakeFiles/random.dir/all:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/depend
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target random"
-.PHONY : CMakeFiles/random.dir/all
+CMakeFiles/cs201.dir/all:
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/depend
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cs201"
+.PHONY : CMakeFiles/cs201.dir/all
 
 # Include target in all.
-all: CMakeFiles/random.dir/all
+all: CMakeFiles/cs201.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/random.dir/rule: cmake_check_build_system
+CMakeFiles/cs201.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/random.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cs201.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/random.dir/rule
+.PHONY : CMakeFiles/cs201.dir/rule
 
 # Convenience name for target.
-random: CMakeFiles/random.dir/rule
+cs201: CMakeFiles/cs201.dir/rule
 
-.PHONY : random
-
-# clean rule for target.
-CMakeFiles/random.dir/clean:
-	$(MAKE) -f CMakeFiles/random.dir/build.make CMakeFiles/random.dir/clean
-.PHONY : CMakeFiles/random.dir/clean
+.PHONY : cs201
 
 # clean rule for target.
-clean: CMakeFiles/random.dir/clean
+CMakeFiles/cs201.dir/clean:
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/clean
+.PHONY : CMakeFiles/cs201.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/cs201.dir/clean
 
 .PHONY : clean
 

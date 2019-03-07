@@ -1,5 +1,0 @@
-<<<<<<< Updated upstream
-/usr/bin/cc -g   CMakeFiles/random.dir/tab.c.o  -o random 
-=======
-/usr/bin/cc -g   CMakeFiles/random.dir/changeltox.c.o  -o random 
->>>>>>> Stashed changes

@@ -4,11 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-<<<<<<< Updated upstream
-  "/home/ksmaybe/code/cs201/tab.c" "/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles/random.dir/tab.c.o"
-=======
-  "/home/ksmaybe/code/cs201/changeltox.c" "/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles/random.dir/changeltox.c.o"
->>>>>>> Stashed changes
+  "/home/ksmaybe/code/cs201/upperlower.c" "/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles/cs201.dir/upperlower.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

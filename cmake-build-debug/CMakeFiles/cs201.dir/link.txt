@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/cs201.dir/upperlower.c.o  -o cs201 
