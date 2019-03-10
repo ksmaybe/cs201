@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cs201.dir/upperlower.c.o"
+  "CMakeFiles/cs201.dir/q2_61.c.o"
   "cs201.pdb"
   "cs201"
 )

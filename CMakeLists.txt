@@ -3,4 +3,5 @@ project(cs201 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(cs201 upper.c)
+add_executable(cs201 q2_61.c)
+target_link_libraries(cs201 m)

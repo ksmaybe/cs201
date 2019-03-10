@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/ksmaybe/code/cs201/upperlower.c
+/home/ksmaybe/code/cs201/q2_61.c
 stdio.h
 -
-ctype.h
+stdint.h
+-
+math.h
+-
+stdlib.h
 -
 

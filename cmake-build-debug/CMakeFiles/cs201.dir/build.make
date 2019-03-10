@@ -57,27 +57,27 @@ include CMakeFiles/cs201.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cs201.dir/flags.make
 
-CMakeFiles/cs201.dir/upperlower.c.o: CMakeFiles/cs201.dir/flags.make
-CMakeFiles/cs201.dir/upperlower.c.o: ../upperlower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cs201.dir/upperlower.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cs201.dir/upperlower.c.o   -c /home/ksmaybe/code/cs201/upperlower.c
+CMakeFiles/cs201.dir/q2_61.c.o: CMakeFiles/cs201.dir/flags.make
+CMakeFiles/cs201.dir/q2_61.c.o: ../q2_61.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cs201.dir/q2_61.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cs201.dir/q2_61.c.o   -c /home/ksmaybe/code/cs201/q2_61.c
 
-CMakeFiles/cs201.dir/upperlower.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cs201.dir/upperlower.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ksmaybe/code/cs201/upperlower.c > CMakeFiles/cs201.dir/upperlower.c.i
+CMakeFiles/cs201.dir/q2_61.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cs201.dir/q2_61.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ksmaybe/code/cs201/q2_61.c > CMakeFiles/cs201.dir/q2_61.c.i
 
-CMakeFiles/cs201.dir/upperlower.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cs201.dir/upperlower.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ksmaybe/code/cs201/upperlower.c -o CMakeFiles/cs201.dir/upperlower.c.s
+CMakeFiles/cs201.dir/q2_61.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cs201.dir/q2_61.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ksmaybe/code/cs201/q2_61.c -o CMakeFiles/cs201.dir/q2_61.c.s
 
 # Object files for target cs201
 cs201_OBJECTS = \
-"CMakeFiles/cs201.dir/upperlower.c.o"
+"CMakeFiles/cs201.dir/q2_61.c.o"
 
 # External object files for target cs201
 cs201_EXTERNAL_OBJECTS =
 
-cs201: CMakeFiles/cs201.dir/upperlower.c.o
+cs201: CMakeFiles/cs201.dir/q2_61.c.o
 cs201: CMakeFiles/cs201.dir/build.make
 cs201: CMakeFiles/cs201.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ksmaybe/code/cs201/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable cs201"

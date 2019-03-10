@@ -123,32 +123,32 @@ cs201/fast:
 	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/build
 .PHONY : cs201/fast
 
-upperlower.o: upperlower.c.o
+q2_61.o: q2_61.c.o
 
-.PHONY : upperlower.o
+.PHONY : q2_61.o
 
 # target to build an object file
-upperlower.c.o:
-	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/upperlower.c.o
-.PHONY : upperlower.c.o
+q2_61.c.o:
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/q2_61.c.o
+.PHONY : q2_61.c.o
 
-upperlower.i: upperlower.c.i
+q2_61.i: q2_61.c.i
 
-.PHONY : upperlower.i
+.PHONY : q2_61.i
 
 # target to preprocess a source file
-upperlower.c.i:
-	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/upperlower.c.i
-.PHONY : upperlower.c.i
+q2_61.c.i:
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/q2_61.c.i
+.PHONY : q2_61.c.i
 
-upperlower.s: upperlower.c.s
+q2_61.s: q2_61.c.s
 
-.PHONY : upperlower.s
+.PHONY : q2_61.s
 
 # target to generate assembly for a file
-upperlower.c.s:
-	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/upperlower.c.s
-.PHONY : upperlower.c.s
+q2_61.c.s:
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/q2_61.c.s
+.PHONY : q2_61.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cs201"
 	@echo "... edit_cache"
-	@echo "... upperlower.o"
-	@echo "... upperlower.i"
-	@echo "... upperlower.s"
+	@echo "... q2_61.o"
+	@echo "... q2_61.i"
+	@echo "... q2_61.s"
 .PHONY : help
 
 
