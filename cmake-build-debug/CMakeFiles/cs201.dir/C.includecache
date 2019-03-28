@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ksmaybe/code/cs201/q2_61.c
+/home/ksmaybe/code/cs201/swap.c
 stdio.h
--
-stdint.h
--
-math.h
--
-stdlib.h
 -
 

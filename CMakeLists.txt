@@ -3,5 +3,5 @@ project(cs201 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(cs201 any_odd_one.c)
+add_executable(cs201 swap.c)
 target_link_libraries(cs201 m)
