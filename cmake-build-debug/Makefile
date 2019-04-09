@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ksmaybe/code/cs201/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/ksmaybe/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6183.77/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ cs201/fast:
 	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/build
 .PHONY : cs201/fast
 
-swap.o: swap.c.o
+test.o: test.c.o
 
-.PHONY : swap.o
+.PHONY : test.o
 
 # target to build an object file
-swap.c.o:
-	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/swap.c.o
-.PHONY : swap.c.o
+test.c.o:
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/test.c.o
+.PHONY : test.c.o
 
-swap.i: swap.c.i
+test.i: test.c.i
 
-.PHONY : swap.i
+.PHONY : test.i
 
 # target to preprocess a source file
-swap.c.i:
-	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/swap.c.i
-.PHONY : swap.c.i
+test.c.i:
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/test.c.i
+.PHONY : test.c.i
 
-swap.s: swap.c.s
+test.s: test.c.s
 
-.PHONY : swap.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-swap.c.s:
-	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/swap.c.s
-.PHONY : swap.c.s
+test.c.s:
+	$(MAKE) -f CMakeFiles/cs201.dir/build.make CMakeFiles/cs201.dir/test.c.s
+.PHONY : test.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cs201"
 	@echo "... edit_cache"
-	@echo "... swap.o"
-	@echo "... swap.i"
-	@echo "... swap.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

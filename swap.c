@@ -11,7 +11,14 @@ void swap3(long *xp, long *yp, long *zp){
     *zp=t;
 }
 void swap2(long *xp, long *yp,  long *zp){
-    __asm__("mov (%rdi), %rax;" "mov %rsi,(%rdi);" "mov %rdx,(%rsi);" "mov %rax,(%rdi);" "ret;":"=r" (*xp):"r" (*yp));
+    //%rdi, %rsi, %rdx contain xp, yp, zp, respectively.
+    asm("movq (%rdi),%rax;"
+        "movq (%rsi),%rbx;"
+        "movq %rbx,(%rdi);"
+        "movq (%rdx),%rbx;"
+        "movq %rbx,(%rsi);"
+        "movq %rax,(%rdx);"
+    );
 };
 //asm swap ();
 

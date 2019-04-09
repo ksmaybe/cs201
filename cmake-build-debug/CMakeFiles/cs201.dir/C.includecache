@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ksmaybe/code/cs201/swap.c
+/home/ksmaybe/code/cs201/test.c
 stdio.h
+-
+stdlib.h
+-
+string.h
 -
 
