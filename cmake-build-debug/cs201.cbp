@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ksmaybe/code/cs201/test.c">
+		<Unit filename="/home/ksmaybe/code/cs201/lab2.c">
 			<Option target="cs201"/>
 		</Unit>
 		<Unit filename="/home/ksmaybe/code/cs201/CMakeLists.txt">

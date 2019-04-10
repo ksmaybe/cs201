@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/cs201.dir/test.c.o  -o cs201 -lm 
+/usr/bin/cc -g   CMakeFiles/cs201.dir/lab2.c.o  -o cs201 -lm 

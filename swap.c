@@ -22,12 +22,10 @@ void swap2(long *xp, long *yp,  long *zp){
 };
 //asm swap ();
 
-int main(){
-    long a=1;
-    long b=2;
-    long c=3;
-    swap2(&a,&b,&c);
-    printf("a: %ld b: %ld c: %ld",a,b,c);
+int main(int argc, char *argv[]){
+    char c;
+    while((c=*(++argv[1]))!='\0')
+        printf("%c",c);
     return 0;
 
 }
